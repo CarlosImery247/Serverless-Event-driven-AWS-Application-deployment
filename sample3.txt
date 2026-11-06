@@ -1,2 +1,0 @@
-Amazon S3 is scalable object storage.
-Amazon SNS sends notifications.
