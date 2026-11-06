@@ -1,0 +1,3 @@
+Amazon Web Services provides cloud computing.
+Lambda is a serverless compute service.
+S3 stores objects.
