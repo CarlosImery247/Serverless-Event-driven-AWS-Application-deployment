@@ -1,5 +1,5 @@
 # Serverless-Event-driven-AWS-Application-deployment
-  Made use ofAmazon S3, AWS Lambda, and Amazon SNS to set up an automatic delivery system of .txt file word counts to a designated email address, triggered by the uploading of a file into a S3 bucket.
+  Made use of Amazon S3, AWS Lambda, and Amazon SNS to set up an automatic delivery system of .txt file word counts to a designated email address, triggered by the uploading of a file into a S3 bucket.
 
   In this lab, we developed an event-driven serverless application using Amazon S3, AWS Lambda and Amazon SNS. Amazon S3 acts as the input storage service. Whenever a user uploads a text file, an S3 Object Created event automatically triggers the Lambda function. The Lambda function is developed using Python and Boto3. 
 
