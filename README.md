@@ -8,6 +8,7 @@
 Steps to replicate results:
 
 1. Within the AWS Management Console, open Amazon Simple Notification Service (SNS) to create a topic.
+   
       a. Select Standard topic
       b. Enter topic name - leave everything else at default values.
 
