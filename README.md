@@ -7,7 +7,20 @@
 
 Steps to replicate results:
 
-1. 
+1. Within the AWS Management Console, open Amazon Simple Notification Service (SNS) to create a topic.
+      a. Select Standard topic
+      b. Enter topic name - leave everything else at default values.
+
+<img width="624" height="453" alt="SNS topic Creation" src="https://github.com/user-attachments/assets/f86d0209-5dfb-4439-a941-9ca43d6e8603" />
+
+
+2. Create a subscription within SNS.
+      a. Select the topic we just created
+      b. Click 'Create Subscription' and select Email protocol.
+      c. Enter target email address and click 'Create Subscription'.
+            I. Important to note that this will send a subscription confirmation to your target email. You must accept confirm the subscription, otherwise SNS will not send any notifications.
+
+3.Creating the Lambda Function - Open Lambda within the AWS Management Console.
 
 
   
