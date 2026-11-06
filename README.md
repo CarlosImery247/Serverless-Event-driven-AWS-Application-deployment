@@ -17,12 +17,18 @@ Steps to replicate results:
 
 
 2. Create a subscription within SNS.
-      a. Select the topic we just created
+   
+      a. Select the topic we just created.
+   
       b. Click 'Create Subscription' and select Email protocol.
+   
       c. Enter target email address and click 'Create Subscription'.
+   
             I. Important to note that this will send a subscription confirmation to your target email. You must accept confirm the subscription, otherwise SNS will not send any notifications.
 
 3.Creating the Lambda Function - Open Lambda within the AWS Management Console.
+
+
 
 
   
