@@ -26,7 +26,21 @@ Steps to replicate results:
    
             I. Important to note that this will send a subscription confirmation to your target email. You must accept confirm the subscription, otherwise SNS will not send any notifications.
 
+   <img width="651" height="705" alt="SNS subscriptions" src="https://github.com/user-attachments/assets/51d48eec-58bb-44a7-bb9a-263fbdf310ef" />
+
+
 3.Creating the Lambda Function - Open Lambda within the AWS Management Console.
+
+      a. Select 'Event Functions' opn the left panel.
+
+      b. Select 'Create Event Function' and have the following settings: Author from Scratch, WordCountFunction (function name), Architecture: x86_64, Execution role: Use and existing role - LambdaAccessRole 
+
+          I. Note that this was done in a AWS Lab environment with roles already created. To recreate this you will need to create a role using AWS Identity and Access Management (IAM) to provide the following permissions:
+
+          ~AWS LAmbdaBasicExecutionRole
+          ~AmazonSNSFullAccess
+          ~AmazonS3FullAccess
+          ~CloudWatchFullAccess
 
 
 
